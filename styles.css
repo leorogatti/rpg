@@ -63,6 +63,14 @@ h2.race-traits {
   margin-bottom: 20px;
 }
 
+.icons {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
 #anao {
   width: 450px
 }
@@ -92,6 +100,7 @@ h2.race-traits {
   transition: all 0.5s ease;
   margin: 0 auto;
 }
+
 
 .slick-slide {
   transform: scale(0.6);
@@ -146,6 +155,23 @@ h2.race-traits {
   z-index: 9999;
 }
 
+.div-b {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #d4af37;
+  color: #f1f1f1;
+  padding: 20px 40px;
+}
+
+#voltar {
+  display: block;
+}
+
 @media only screen and (max-width: 767px) {
   body {
     width: 100%;
@@ -154,6 +180,13 @@ h2.race-traits {
   .image {
     width: 60%;
     height: 50%;
+  }
+
+  .icons {
+    width: 60%;
+    height: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .race-title {
@@ -206,6 +239,20 @@ h2.race-traits {
     transform: scale(1.0);
     opacity: 1.0;
   }
+
+  .div-b {
+    text-align: center;
+  }
+  
+  .button {
+    display: block;
+    text-decoration: none;
+    background-color: #d4af37;
+    color: #f1f1f1;
+    padding: 20px 40px;
+    margin-bottom: 5%;
+  }
+  
   
 }
  

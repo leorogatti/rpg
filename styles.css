@@ -5,6 +5,7 @@ body {
   text-align: center;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .race-title {
@@ -167,8 +168,8 @@ h2.race-traits {
     font-size: 10px;
     line-height: 1.5;
     color: #d4af37;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .race-traits {
@@ -176,13 +177,14 @@ h2.race-traits {
     line-height: 1.5;
     text-align: left;
     color: #f1f1f1;
-    margin-right: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
   }
 
   h2.race-traits {
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.5;
     text-align: center;
     color: #f1f1f1;

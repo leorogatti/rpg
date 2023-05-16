@@ -1,0 +1,189 @@
+body {
+  background-color: #2b2b2b;
+  font-family: 'Merriweather', serif;
+  color: #d4af37;
+  text-align: center;
+}
+
+.race-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #d4af37;
+  font-family: 'MedievalSharp', cursive;
+}
+
+.race-description {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #d4af37;
+}
+
+.race-traits {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #f1f1f1;
+}
+
+.race-traits {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #f1f1f1;
+}
+
+h2.race-traits {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.race-traits li {
+  margin-bottom: 20px;
+  color: #f1f1f1;
+}
+
+.image {
+  width: 250px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#anao {
+  width: 450px
+}
+
+#halfling {
+  width: 300px;
+}
+
+#meio-orc {
+  width: 300px;
+}
+
+#orc {
+  width: 350px;
+}
+
+#gith {
+  width: 450px;
+}
+
+.card {
+  width: 800px;
+  height: 1200px;
+  border: 10px solid #d4af37;
+  background-color: #1c1c1c;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  transform: scale(0.8);
+  opacity: 0.8;
+  transition: all 0.4s ease-in-out;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.slick-center {
+  transform: scale(1.0);
+  opacity: 1.0;
+}
+
+.slider .prev-arrow {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  color: #f1f1f1;
+  width: 50px;
+  height: 50px;
+  background: #d4af37;
+  border-radius: 0%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.slider .next-arrow {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  color: #f1f1f1;
+  width: 50px;
+  height: 50px;
+  background: #d4af37;
+  border-radius: 0%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Código anterior */
+
+.slider .prev-arrow,
+.slider .next-arrow {
+  z-index: 9999;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+
+  .image {
+    width: 60%;
+    height: 50%;
+  }
+
+  .race-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #d4af37;
+    font-family: 'MedievalSharp', cursive;
+  }
+
+  .race-description {
+    font-size: 10px;
+    line-height: 1.5;
+    color: #d4af37;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .race-traits {
+    font-size: 9px;
+    line-height: 1.5;
+    text-align: left;
+    color: #f1f1f1;
+    margin-right: 10%;
+  }
+
+  h2.race-traits {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #f1f1f1;
+  }
+
+  .race-traits li {
+    margin-bottom: 10px;
+    color: #f1f1f1;
+    padding-bottom: 10px;
+  }
+}
+ 

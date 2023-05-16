@@ -98,6 +98,11 @@ h2.race-traits {
   transition: all 0.4s ease-in-out;
 }
 
+.slick-slide img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
 .slick-center {
   transform: scale(0.8);
   opacity: 1.0;
@@ -187,5 +192,18 @@ h2.race-traits {
     margin-bottom: 10px;
     color: #f1f1f1;
   }
+
+  .slick-slide {
+    transform: scale(0.8);
+    opacity: 0.8;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  
+  .slick-center {
+    transform: scale(1.0);
+    opacity: 1.0;
+  }
+  
 }
  
